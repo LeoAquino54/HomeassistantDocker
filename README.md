@@ -43,4 +43,8 @@ services:
 
 sudo docker compose up -d
 <br>
-A grande vantagem de utilizar o método Docker Compose é que ele mantém armazenado todas as configurações utilizadas para criação do container, caso um dia você precisa utilizá-la novamente.
+A grande vantagem de utilizar o método Docker Compose é que ele mantém armazenado todas as configurações utilizadas para criação do container, caso um dia você precisa utilizá-la novamente
+<br>
+<br>
+<br>
+<h1>Realizar acesso no localhost:8123</h1>
