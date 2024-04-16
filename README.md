@@ -26,15 +26,25 @@ sudo apt-get install docker-compose-plugin
 <br>
 
 version: '3'
+<br>
 services:
+<br>
   homeassistant:
+  <br>
     container_name: homeassistant
+    <br>
     image: "ghcr.io/home-assistant/home-assistant:stable"
+    <br>
     volumes:
+    <br>
       - /docker/home-assistant/config:/config
+      <br>
       - /etc/localtime:/etc/localtime:ro
+      <br>
     restart: unless-stopped
+    <br>
     privileged: true
+    <br>
     network_mode: host
     <br>
     
